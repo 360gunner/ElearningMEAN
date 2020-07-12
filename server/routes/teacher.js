@@ -56,24 +56,7 @@ router.route('/courses')
     });
   });
 
-// Just for testing 
-router.get('/faker/test',(req, res, next) => {
-  for (i = 0; i < 20; i++) {
-    let course = new Course();
-    course.category = "5a686728080eae201861616a";
-    course.owner = "5a66f19dc5f7401b2057e1a3";
-    course.image = faker.image.cats();
-    course.title = faker.commerce.courseName();
-    course.description = faker.lorem.words();
-    course.price = faker.commerce.price();
-    course.save();
-  }
 
-  res.json({
-    message: "Successfully added 20 pictures"
-  });
-
-});
 
 
 
