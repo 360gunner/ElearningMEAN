@@ -19,7 +19,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SettingsComponent } from './settings/settings.component';
-import { AddressComponent } from './address/address.component';
+
 import { CategoriesComponent } from './categories/categories.component';
 import { PostCourseComponent } from './post-course/post-course.component';
 import { MyCoursesComponent } from './my-courses/my-courses.component';
@@ -37,7 +37,6 @@ import { CartComponent } from './cart/cart.component';
     LoginComponent,
     ProfileComponent,
     SettingsComponent,
-    AddressComponent,
     CategoriesComponent,
     PostCourseComponent,
     MyCoursesComponent,
