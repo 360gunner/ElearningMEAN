@@ -1,2 +1,2 @@
 # ElearningMEAN
-MEAN stack dev elearning app
+MEAN stack dev elearning app (MongoDB, Express, Angular, NodeJS)

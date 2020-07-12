@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Arash",
+  "author": "360gunner",
   "license": "ISC",
   "dependencies": {
     "algoliasearch": "^3.24.9",
