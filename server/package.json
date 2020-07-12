@@ -18,7 +18,7 @@
     "express": "^4.16.2",
     "faker": "^4.1.0",
     "jsonwebtoken": "^8.1.1",
-    "mongoose": "^4.13.7",
+    "mongoose": "^5.7.5",
     "mongoose-algolia": "^1.7.1",
     "mongoose-deep-populate": "^3.0.0",
     "morgan": "^1.9.0",
