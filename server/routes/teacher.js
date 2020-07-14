@@ -14,6 +14,7 @@ const faker = require('faker');
 
 const checkJWT = require('../middlewares/check-jwt');
 
+//upload function to s3 to upload courses images
 var upload = multer({
   storage: multerS3({
     s3: s3,
@@ -26,6 +27,7 @@ var upload = multer({
     }
   })
 });
+
 
 
 router.route('/courses')
