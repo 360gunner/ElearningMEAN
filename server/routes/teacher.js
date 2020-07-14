@@ -2,7 +2,9 @@ const router = require('express').Router();
 const Course = require('../models/course');
 
 const aws = require('aws-sdk');
+//to upload images we use multer (aws)
 const multer = require('multer');
+//to upload directly to aws s3 we use multers3 
 const multerS3 = require('multer-s3');
 const s3 = new aws.S3({ accessKeyId: "AKIAIBR5G5OP47EVSYJA", secretAccessKey: "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" });
 
