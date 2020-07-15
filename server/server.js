@@ -18,6 +18,8 @@ mongoose.connect(config.database, {useMongoClient: true}, err => {
 });
 
 app.use(bodyParser.json());
+
+//to use all type of data in url like images videos and thing for our elearning platform
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan('dev'));
 app.use(cors());
