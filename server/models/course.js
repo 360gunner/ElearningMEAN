@@ -40,7 +40,7 @@ CourseSchema.plugin(mongooseAlgolia, {
   appId: 'CO3GNO6BHL',
   apiKey: '3a4325e1bed03a2fa814393542dcbe61',
   indexName: 'Biapiv1',
-  selector: '_id title image reviews description price owner created averageRating',
+  selector: '_id title image reviews description price owner crated averageRating',
   populate: {
     path: 'owner reviews',
     select: 'name rating'
