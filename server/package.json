@@ -16,7 +16,7 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "jsonwebtoken": "^8.1.1",
     "mongoose": "^4.13.7",
